@@ -1,0 +1,15 @@
+[project]
+name = "genai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.131.0",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.10",
+    "pandas>=3.0.1",
+    "pypdf>=6.7.2",
+    "sentence-transformers>=5.2.3",
+]
